@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "visao-computacional"
+version = "0.1.0"
+description = ""
+authors = ["Suzini <samu.suzini@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.10.0.84"
+mediapipe = "^0.10.14"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
